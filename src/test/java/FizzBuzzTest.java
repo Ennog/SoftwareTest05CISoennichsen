@@ -10,5 +10,6 @@ public class FizzBuzzTest {
         FizzBuzz fizzBuzz = new FizzBuzz();
         String ergebnis = fizzBuzz.antwort(3);
         Assert.assertEquals("ergbnis ist fizz","fizz", ergebnis);
-    }
+    	Assert.assertEquals("ergebnis ist buzz", "buzz", fizzBuzz.antwort(5));
+	}
 }

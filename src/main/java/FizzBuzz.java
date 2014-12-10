@@ -7,7 +7,9 @@ public class FizzBuzz {
         String ergebnis="";
         if (i%3 == 0){
             ergebnis = "fizz";
-        }
+        }else if (i%5 == 0) {
+	    ergebnis = "buzz";
+	}
         return ergebnis;
     }
 }
